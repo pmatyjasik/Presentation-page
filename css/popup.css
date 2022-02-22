@@ -1,0 +1,75 @@
+.popup-form {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, 5%);
+    padding:20px;
+    width: 300px;
+}
+
+.form-container {
+    background-color: #fff;
+    display:flex;
+    flex-direction: column;
+    border-radius:8px;
+    padding:10px;
+    background: linear-gradient(180deg, #F3A300 0%, #F07A13 100%);
+}
+
+.popup-exit{
+    background: linear-gradient(180deg, #F3A300 0%, #F07A13 100%);
+    border:1px solid black;
+    border-radius:8px;
+    font-size: 12px;
+}
+
+.fa-x{
+    color:#ffffff;
+}
+
+.popup-heading{
+    text-align: center;
+    margin:10px;
+    color:#ffffff;
+    font-weight: bold;;
+    font-size:16px;
+}
+
+.popup-exit-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.popup-input{
+    margin-bottom:10px;
+    border-radius: 8px;
+    border:1px solid black;
+    font-size: 12px;
+    padding:5px;
+}
+
+.popup-login-button{
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    height: 30px;
+    width: 100px;
+}
+
+.popup-login-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.login-button{
+    background-color: transparent;
+    color:#ffffff;
+    border:none;
+    cursor:pointer;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top:2px;
+    margin-left:10px;
+}

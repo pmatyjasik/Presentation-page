@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/popup.css">
+  <script src="https://kit.fontawesome.com/dfae0ae259.js" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</head>
+<body>
+<div class="popup-form" id="popup-form">
+  <form action="" class="form-container">
+    <div class="popup-exit-container">
+      <button class="popup-exit" onclick="closeForm()"><i class="fa-solid fa-x"></i></button>
+    </div>
+    <h3 class="popup-heading">Logowanie</h3>
+    <input class="popup-input" type="text" placeholder="E-mail" name="email" required>
+    <input class="popup-input" type="password" placeholder="Hasło" name="psw" required>
+    <div class="popup-login-container">
+    <button class="popup-login-button download" type="submit">Zaloguj</button>
+  </div>
+  </form>
+  </div>
+  <header id="start">
+    <div class="container">
+      <div class="header-nav">
+        <div class="header">
+          <h1 class="nav-logo">LOGO</h1>
+        </div>
+        <nav>
+          <a href="#start" class="nav-mobile" href="">Start</a>
+          <a href="#jak-dziala" class="nav-mobile" href="">Jak to działa?</a>
+          <a href="#cennik" class="nav-mobile" href="">Cennik</a>
+          <span class="nav-mobile nav-hr">&#124;</span>
+          <button class="login-button" onclick="openForm()"><strong>Logowanie</strong></button>
+          <a id="mobile-hide" href="">Rejestracja</a>
+        </nav>
+      </div>
+      <div class="header-content">
+        <div>
+          <h2 class="header-heading">Poznaj Lorem Ipsum!</h2>
+          <p class="header-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+          <button type="button" class="header-button about-app">O aplikacji</button>
+          <button type="button" class="header-button download">Pobierz</button>
+        </div>
+        <div class="header-img">
+          <img class="phone-hand" src="assets/phone_hand.svg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="ellipse">
+      <div class="nav-down">
+        <a href="#jak-dziala" class="awesome-icon"><i class="fas fa-angle-double-up"></i></a>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <h2 id="jak-dziala" class="content-header">Jak to działa?</h2>
+    <div class="section-1">
+      <div class="phone-text">
+        <div class="mobile-phone">
+          <img class="phone phone-rotation-1" src="/assets/phone_big.svg" alt="Phone">
+        </div>
+        <div class="section-1-content">
+          <h3 class="section-header">1 Lorem ipsum dolor sit amet</h3>
+          <p class="section-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        </div>
+      </div>
+      <div class="arrow-down-right">
+        <img class="arrow" src="assets/arrow1.svg" alt="Arrow down right">
+      </div>
+    </div>
+    <div class="section-2">
+      <div class="arrow-down-left">
+        <img class="arrow" src="assets/arrow2.svg" alt="Arrow down right">
+      </div>
+      <div class="phone-text">
+        <div class="section-2-content">
+          <h3 class="section-header">2 Lorem ipsum dolor sit amet</h3>
+          <p class="section-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        </div>
+        <div class="mobile-phone">
+          <img class="phone phone-rotation-2" src="/assets/phone_big.svg" alt="Phone">
+        </div>
+      </div>
+    </div>
+    <div class="section-3">
+      <div class="phone-text">
+        <div class="mobile-phone">
+          <img class="phone" src="/assets/phone_big.svg" alt="Phone">
+        </div>
+        <div class="section-1-content">
+          <h3 class="section-header">3 Lorem ipsum dolor sit amet</h3>
+          <p class="section-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        </div>
+      </div>
+      <div class="arrow-down-right">
+        <img class="arrow" src="assets/arrow3.svg" alt="Arrow down right">
+      </div>
+    </div>
+    <div class="section-4">
+      <div class="phone-text">
+        <div class="section-4-content">
+          <h3 class="section-header">4 Lorem ipsum dolor sit amet</h3>
+          <p class="section-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        </div>
+        <div class="section-4-rotate-phone mobile-phone">
+          <img class="phone phone-rotation-4" src="/assets/phone_big.svg" alt="Phone">
+        </div>
+      </div>
+    </div>
+    <h3 class="content-bottom-text">Lorem ipsum!</h3>
+  </div>
+  <div class="main-fotter">
+    <div id="cennik" class="container">
+      <h2 id="mobile-view" class="footer-heading">Cennik <span class="header-paragraph">ile to kosztuje?</span></h2>
+      <div class="table">
+        <div class="table-heading">
+          <div>
+            <img class="table-img" src="assets/phone_small.svg" alt="Small Phone">
+          </div>
+          <div class="table-content-header">
+            <p class="text-table-header">Lorem ipsum</p>
+            <h3 class="heading-table-header">Dolor sit amet</h3>
+          </div>
+        </div>
+      <table class="table-pricing">
+        <tr class="table-header">
+          <th class="hr-table-footer"></th>
+          <th class="hr-table-footer"><span class="type-of">Basic</span> <br><span class="price">wersja darmowa</span></th>
+          <th class="hr-table-footer"><span class="type-of">Premium</span><br><span class="price">79,99zł</span><br><span class="discount">30% taniej</span></th>
+        </tr>
+        <tr>
+          <td class="text-left">Lorem ipsum</td>
+          <td><i class="fa-solid fa-check"></i></td>
+          <td><i class="fa-solid fa-check"></i></td>
+        </tr>
+        <tr>
+          <td class="text-left">dolor sit amet, consectetur</td>
+          <td><i class="fa-solid fa-check"></i></td>
+          <td><i class="fa-solid fa-check"></i></td>
+        </tr>
+        <tr>
+          <td class="text-left">adipiscing elit, sed do eiusmod</td>
+          <td><i class="fa-solid fa-check"></i></td>
+          <td><i class="fa-solid fa-check"></i></td>
+        </tr>
+        <tr>
+          <td class="text-left">tempor incididunt</td>
+          <td><i class="fa-solid fa-check"></i></td>
+          <td><i class="fa-solid fa-check"></i></td>
+        </tr>
+        <tr>
+          <td class="text-left">ut labore et dolore</td>
+          <td><i class="fa-solid fa-x"></i></td>
+          <td><i class="fa-solid fa-check"></i></td>
+        </tr>
+        <tr>
+          <td class="text-left">Lorem ipsum</td>
+          <td><i class="fa-solid fa-x"></i></td>
+          <td><i class="fa-solid fa-check"></i></td>
+        </tr>
+        <tr>
+          <td class="text-left">Ipsum dolor sit amet ut labore et</td>
+          <td><i class="fa-solid fa-x"></i></td>
+          <td><i class="fa-solid fa-check"></i></td>
+        </tr>
+        <tr>
+          <td class="text-left">dolore magna aliqua</td>
+          <td><i class="fa-solid fa-x"></i></td>
+          <td><i class="fa-solid fa-check"></i></td>
+        </tr>
+      </table>
+      <h3 class="lets-try">Zarejestruj się i wypróbuj!</h3>
+      <div class="buttons">
+        <button type="button" class="fotter-button register">Rejestracja</button>
+        <button type="button" class="fotter-button login" onclick="openForm()">Logowanie</button>
+      </div>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
