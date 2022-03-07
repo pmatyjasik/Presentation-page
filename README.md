@@ -1,8 +1,8 @@
-# Strona 
-### Strona zostala wykonana za pomocą:
+# Presentation 
+### Website created with::
 * HTML
 * CSS
 * JavaScript
 
-#### Adres strony: https://pmatyjasik.github.io/Strona/
+#### url: https://pmatyjasik.github.io/Presentation-page/
 
